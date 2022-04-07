@@ -1,0 +1,5 @@
+FROM ann-benchmarks
+
+RUN pip3 install numpy setuptools FALCONN
+RUN python3 -c 'import numpy as np'
+RUN python3 -c 'import falconn'
